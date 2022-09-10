@@ -1,0 +1,13 @@
+{
+  "name": "github-proxy",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "bun-types": "^0.1.0"
+  },
+  "dependencies": {
+    "@octokit/request": "^6.2.1",
+    "@trpc/server": "next",
+    "zod": "^3.19.0"
+  }
+}
