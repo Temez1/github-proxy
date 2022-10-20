@@ -1,4 +1,4 @@
-FROM jarredsumner/bun:edge
+FROM jarredsumner/bun:0.1.10
 WORKDIR /app
 RUN addgroup bun && adduser -S -H bun -G bun
 COPY --chown=bun:bun . .
